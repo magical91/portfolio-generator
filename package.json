@@ -4,7 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "client": "// in here you would give it the path to start the front end",
+    "server": "// you would give it the path to start the backend server",
+    "watch": "node client/app.js && node server/server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
